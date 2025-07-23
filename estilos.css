@@ -1,6 +1,6 @@
 /* Fondo general y texto */
 body {
-   background: url("img/fondo.jpg") no-repeat center center fixed;
+   background: url("fondo.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #f9f9f9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
