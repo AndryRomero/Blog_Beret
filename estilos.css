@@ -1,0 +1,142 @@
+/* Fondo general y texto */
+body {
+   background: url("img/fondo.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: rgba(25, 0, 40, 0.5); /* fondo semi-transparente para destacar */
+  padding: 50px 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(187, 134, 252, 0.3);
+}
+
+.logo-beret {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #bb86fc;
+}
+
+h1 {
+  color: #e0c3fc;
+  font-size: 2.2rem;
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Título principal */
+h1 {
+    color: #bb86fc; /* violeta claro */
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.2); /* sombra clara */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #d0a9f5; /* violeta intermedio */
+    font-family: 'Georgia', serif;
+    margin-top: 40px;
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #e0d4f7;
+}
+
+/* Listas */
+ul, ol {
+    font-size: 17px;
+    padding-left: 25px;
+    color: #e0d4f7;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #ffc0fb; /* rosa violáceo */
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: #f5aaff;
+}
+
+/* Imágenes */
+img {
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #bb86fc;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Formulario */
+form {
+    background-color: #2a1b4c; /* violeta más claro para destacar */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(187, 134, 252, 0.3);
+    max-width: 500px;
+    color: #f5f5f5;
+}
+
+label, textarea, input {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Verdana', sans-serif;
+    color: #f5f5f5;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #bb86fc;
+    border-radius: 5px;
+    background-color: #3b2566;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #bb86fc;
+    color: #1f103f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #d8b4ff;
+}
